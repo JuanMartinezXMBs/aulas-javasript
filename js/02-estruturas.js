@@ -40,4 +40,19 @@ console.log(
     `carros da ${carro.marca} tem a ${carro.cor}.`
 );
 
-console.log(`Este carro tem ${carro.opcionais[0]}`);
+console.log(`Este carro tem ${carro.opcionais[0]} e ${carro.opcionais[2]}`);
+
+/* Execício 
+!) Crie um novo objeto contendo informações de algo que você gosta (filme, livro, comida, jogo etc)
+
+2) Mostre uma mensagem com pelo menos 2 propriedades do objeto que você criou*/
+
+let pizza = {
+    tipo: ["Salgada", "Doce"],
+    sabor: "Especialidade da Casa",
+    borda: ["normal", "Cheddar", "Requeijão", "Chocolate"],
+    Quantidade: [1 , 2, 3, 4, 5],
+    acompanhamento: "suco de laranja"
+};
+
+console.log(`Clinte pediu uma Pizza ${pizza.tipo[0]} sabor: ${pizza.sabor} com borda de ${pizza.borda[1]}, cliente pediu ${pizza.Quantidade[2]} Pizzas com acompanhamento de ${pizza.acompanhamento}.`);

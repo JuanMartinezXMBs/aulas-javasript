@@ -12,3 +12,9 @@ let cursos = ["Node.js", "React", "SQL", "UX/UI Desing"];
 console.log(cursos); // SAIDA DIRETA/ESTRUTURADA NO CONSOLE
 console.log(cursos[2]); // SQL
 
+/* Exercicio 
+1) crie uma constante chama "dados" e coloque nela os dados de uma pessoa: nome, sobrenome, idade, telefone e cidade
+
+
+2) Mostre no console uma mensagem contendo somento o nome e a idade da poessoa. Exemplo: "Fulano tem 25 anos"*/
+

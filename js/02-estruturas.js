@@ -21,3 +21,23 @@ console.log(cursos[2]); // SQL
 const dados = ["Ximbas", "Martinez", 23, "11-4002-8922", "São Paulo"];
 
 console.log(`${dados[0]} tem ${dados[2]} anos.`);
+
+console.log("-------------------------------");
+
+// Objeto
+let carro = {
+    marca: "fiat",
+    modelo: "uno com escada",
+    portas: 2, // number 
+    cor: "branco", // string
+    opcionais: ["Ar condicionado", "Vidros elétricos", "alarme"] //Arrays(lista)
+};
+
+console.log(carro);
+console.log(carro.modelo);
+
+console.log(
+    `carros da ${carro.marca} tem a ${carro.cor}.`
+);
+
+console.log(`Este carro tem ${carro.opcionais[0]}`);

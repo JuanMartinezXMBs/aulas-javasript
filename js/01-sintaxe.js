@@ -31,4 +31,3 @@ console.log(`Estou fazendo o curso de ${curso} neste ano de ${ano}.`);
 // concatenação (forma mais antiga, mas ainda válida)
 // + = usaddo para juntar e não somar elementos
 console.log("estou fazendo o curso de "+curso+" neste ano de "+ano+".");
-

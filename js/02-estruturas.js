@@ -18,3 +18,6 @@ console.log(cursos[2]); // SQL
 
 2) Mostre no console uma mensagem contendo somento o nome e a idade da poessoa. Exemplo: "Fulano tem 25 anos"*/
 
+const dados = ["Ximbas", "Martinez", 23, "11-4002-8922", "São Paulo"];
+
+console.log(`${dados[0]} tem ${dados[2]} anos.`);

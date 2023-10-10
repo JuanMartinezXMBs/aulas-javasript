@@ -9,16 +9,19 @@
 let usuario = "Juean";
 let idade = 15;
 
+let mensagem; // indefinida/undefined
+
 // Verificar a idade e determinar se é menor ou maior de idade
 // estruturas de controles não usam ";"
 
 if ( idade >= 18 ){
-    console.log(`${usuario} é maior de idade!`);
+    mensagem = "maior";
 } else {
-    console.log(`${usuario} é menor de idade!`);
+    mensagem = "menor";
 }
 
-
+// Apresentando os resultados após o condiconal
+console.log(`${usuario} é ${mensagem} de idade!`);
 
 
 

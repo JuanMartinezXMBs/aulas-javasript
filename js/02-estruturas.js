@@ -56,3 +56,20 @@ let pizza = {
 };
 
 console.log(`Clinte pediu uma Pizza ${pizza.tipo[0]} sabor: ${pizza.sabor} com borda de ${pizza.borda[1]}, cliente pediu ${pizza.Quantidade[2]} Pizzas com acompanhamento de ${pizza.acompanhamento}.`);
+
+console.log(`------------------------`);
+
+// Objeto com array e com outro objeto
+let pessoa = {
+    nome: "Shiryu",
+    idade: 20,
+    telefones: ["11-2135-0300", "11-91234-5678"],
+    medidas: {
+        peso: 65,
+        altura: 1.75
+    }
+};
+
+console.log(`Nome: ${pessoa.nome}`);
+console.log(`Celular: ${pessoa.telefones[1]}`);
+console.log(`Peso: ${pessoa.medidas.peso} Kg`);

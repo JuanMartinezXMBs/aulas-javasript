@@ -6,8 +6,8 @@
 
 /* comando mais comuns: if (se), else (senão), else if (senão se) */
 
-let usuario = "Juean";
-let idade = 15;
+let usuario = prompt("Qual seu nome?");
+let idade = prompt("quantos anos você tem?");
 
 let mensagem; // indefinida/undefined
 
@@ -22,6 +22,7 @@ if ( idade >= 18 ){
 
 // Apresentando os resultados após o condiconal
 console.log(`${usuario} é ${mensagem} de idade!`);
+alert(`${usuario} é ${mensagem} de idade!`);
 
 
 

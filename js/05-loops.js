@@ -20,6 +20,7 @@
 //}
 
 //-----------------------------------------------------------------------
+//OBS Normalmente variaveis de controles de repetição são chamas de "i, j ou k"
 
 // Exemplo do/While  (FAÇA/ENQUANTO)
 // let i = 1;
@@ -30,6 +31,7 @@
 
 //----------------------------------------------------------------------
 
-//OBS Normalmente variaveis de controles de repetição são chamas de "i, j ou k"
-
-// Exemplo 
+// Exemplo FOR (PARA)
+for( let i = 1; i <= 10; i++ ){
+    console.log(`Contador vale: ${i}`);
+}

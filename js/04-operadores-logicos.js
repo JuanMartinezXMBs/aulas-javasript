@@ -50,3 +50,14 @@ if (diaDaSemana == "sábado" || diaDaSemana == "domingo") {
 } else {
     console.log ("Vá trabalhar!🏃‍♂️")
 }
+
+console.log("---------------------------------------------------");
+
+/* Operador logico ! (Not - Negação) */
+let blackFriday = false;
+
+if ( !blackFriday ){
+    console.log("preços normais...");
+} else {
+    console.log("Preços com desconto!");
+}

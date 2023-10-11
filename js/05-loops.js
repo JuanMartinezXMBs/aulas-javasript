@@ -32,6 +32,18 @@
 //----------------------------------------------------------------------
 
 // Exemplo FOR (PARA)
-for( let i = 1; i <= 10; i++ ){
-    console.log(`Contador vale: ${i}`);
+// for( let i = 1; i <= 10; i++ ){
+//     console.log(`Contador vale: ${i}`);
+// }
+
+//loop com array
+let clientes = ["Pedro","Andre","TiagÃO","João","Mateus","TIAGO","Filipe"];
+
+// console.log(clientes.length); - contagem
+
+//Cache/Memória da QTD. de elementos do array
+let quantidade = clientes.length
+
+for( let i = 0; i < quantidade; i++ )
+    {console.log(`Clientes: ${clientes[i]}`);
 }

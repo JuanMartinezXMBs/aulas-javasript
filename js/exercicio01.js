@@ -21,7 +21,7 @@ console.log(`o aluno está: ${mensagem}`);
 console.log(`--------------------------------------------------------`);
 
 let ponto = 0;
-let pontolevados = 0;
+let pontolevados = 1;
 
 let soma = (ponto + pontolevados);
 let mensagemDetran;
@@ -29,16 +29,18 @@ let mensagemDetran;
 console.log(soma);
 
 if (soma >= 15) {
-    mensagemDetran = "tome mais cuidado";
+    mensagemDetran = "sua Carteira Nacional de Habilitação (CNH) está caçada! procure uma agência mais proxima e regularizar sua situação!";
 }
 else if (soma >= 13) {
-    mensagemDetran = "tome mais cuidado com a sua direção, você pode ter a sua CNH caçada";
+    mensagemDetran = "sua Carteira Nacional de Habilitação (CNH) está sendo caçada!";
 }
 else if (soma >= 10) {
-    mensagemDetran = "sua Carteira Nacional de Habilitação (CNH) está caçada! procure uma agência mais proxima e regularizar sua situação";
+    mensagemDetran =  "tome mais cuidado com a sua direção, você pode ter a sua CNH caçada!";
 }
 else if (soma >= 7) {
-    mensagemDetran = "sua Carteira Nacional de Habilitação (CNH) está sendo caçada!";
+    mensagemDetran = "tome mais cuidado!";
+} else {
+    mensagemDetran = "por enquanto ta tudo sob controle.";
 }
 
 console.log(`Detran: ${mensagemDetran}`)

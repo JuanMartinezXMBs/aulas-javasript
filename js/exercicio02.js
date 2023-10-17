@@ -18,6 +18,6 @@ let alunos = [
 
 let contagem = alunos.length;
 
-for(let i = 0; i <= contagem; i++){
-    console.log(`Clientes: ${alunos[i].nome}`)
+for(let i = 0; i < contagem; i++){
+    console.log(`Clientes: ${alunos[i].nome}`);
 }

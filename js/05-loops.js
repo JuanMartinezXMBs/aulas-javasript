@@ -48,3 +48,36 @@ for( let i = 0; i < quantidade; i++ )
     {console.log(`Clientes: ${clientes[i]}`);
 }
 
+console.log(`----------------------------------`);
+//for/of -> para arrays
+let kfcs = ["Pão","Franfo","Batata"]
+
+//
+for (let kfc of kfcs){
+    console.log(kfc);
+}
+
+
+console.log(`----------------------------------`);
+// for/in -> objetos
+let livro = {
+    titulo: "Narnia",
+    autor: "C.S LEWIS",
+    site: "http://narnia.com",
+    ano: 2010,
+    editora: "HarperCollins",
+    edições: 4
+};
+
+// para DADOS dentro/em livros
+for(let propriedade in livro){
+    //Acessar apenas a propriedade
+    //-----console.log(propriedade);
+
+    //Acessar os valor de cada propriedades
+    //-----console.log(livro[propriedade]);
+
+    //como funciona \/
+    console.log(`${propriedade} -> ${livro[propriedade]}`);
+}
+

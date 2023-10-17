@@ -41,3 +41,12 @@ console.log( somar(10,20));
 console.log( somar(10,20));
 console.log( somar(10,20));
 
+/* Formatação de valores em reais */
+
+let preco = 5500;
+let desconto = preco * 0.10; // 
+let precoFinal = preco - desconto;
+
+console.log(`Preço: ${preco.toLocaleString()}`);
+console.log(`desconto: ${desconto.toLocaleString()}`);
+console.log(`Preço final: ${precoFinal.toLocaleString()}`);

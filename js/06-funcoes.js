@@ -47,17 +47,17 @@ let preco = 5500;
 let desconto = preco * 0.10; // 
 let precoFinal = preco - desconto;
 
-console.log(`Preço: ${preco.toLocaleString("pt-br", {
-    style: "currency",
-    currency: "BRL"
-})}`);
+//REFATORANDO
+function formatarPreco(valor) {
+   return valor.toLocaleString("pt-br", {
+        style: "currency",
+        currency: "BRL"
+    })
+};
 
-console.log(`desconto: ${desconto.toLocaleString("pt-br", {
-    style: "currency",
-    currency: "BRL"
-})}`);
+console.log(`Preço: ${formatarPreco(preco)}`);
 
-console.log(`Preço final: ${precoFinal.toLocaleString("pt-br", {
-    style: "currency",
-    currency: "BRL"
-})}`);
+console.log(`desconto:  ${formatarPreco(desconto)}`);
+
+console.log(`Preço final:  ${formatarPreco(precoFinal)}`);
+

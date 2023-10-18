@@ -13,17 +13,18 @@ Dica: para converter, basta pegar o valor e multiplicar pela cotação do dólar
 
 Após a conversão, mostre o valor original em dólar e o valor convertido para reais. */
 
-/* let preco = 1000;
-let conversao = preco * 5.03;
+//Dados de entrada
+let cotacaodia = 5.03;
+let valordolar = 2500;
 
-function converteMoeda(valor) {
-    let opcoes = {
-        style: "currency",
-        currency: "BRL"
-    };
-
-    return valor.toLocaleString("pt-br", opcoes);
-
+//função que realiza a conversão matematica ao receber PARAMETROS
+function converteMoeda(valor, cotacao ) {
+    return valor * cotacao
 }
 
-console.log(`Preço: ${converteMoeda(conversao)}`); */
+// Variavel que recebera o resultado processado pela função DEPOIS que a função terminar sua execução
+let valorConvertido = converteMoeda(cotacaodia, valordolar)
+
+//Saida após o processamento 
+console.log(valordolar);
+console.log(valorConvertido);

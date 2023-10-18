@@ -46,3 +46,28 @@ let quantidadeDeLinks = linkReferencia.length;
 for(let link of linkReferencia){
     link.setAttribute("target","_blank");
 }
+//----------------------------------------------------------------------------------------//
+/* Manipulação de eventos */
+const pagina = document.querySelector("body");
+const exemplo01 = document.querySelector("#exemplo01");
+const mensagem = document.querySelector("#mensagem");
+
+
+//ouvinte de evento
+exemplo01.addEventListener("click", function(){
+    pagina.style.fontFamily = "verdana";
+    mensagem.textContent =  "Fonte atualizada";
+    mensagem.style.backgroundColor = "yellow";
+});
+
+
+
+
+
+
+
+
+
+
+
+

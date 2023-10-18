@@ -63,3 +63,52 @@ console.log(`Preço: ${formatarPreco(preco)}`);
 console.log(`desconto:  ${formatarPreco(desconto)}`);
 
 console.log(`Preço final:  ${formatarPreco(precoFinal)}`);
+
+console.log("--------------------------------------------");
+
+/* Sobre arrow Function Sintaxe moderna para funções no JS, bastante usada por bibliotecas, frameworks (React, Angular, Vue e etc).
+
+A sintaxe geral é: 
+
+const algumNome = () => {};
+
+no entanto essa sintaxe pode ser mais concisa (menor)
+*/
+
+//Versão 1
+//function dobra(valor) {
+//    return valor * 2;
+//}
+
+//-------------------------------------------------------------------------------------------
+
+//Versão 2 (arrow function)
+// const dobra = (valor) => {
+//     return valor * 2;
+// };
+
+//Versão 3 (arrow function com retorno implicito)
+const dobra = valor => valor * 2;
+
+//chamada
+console.log( dobra(80) );
+console.log( dobra(30) );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

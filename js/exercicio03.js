@@ -26,5 +26,21 @@ function converteMoeda(valor, cotacao ) {
 let valorConvertido = converteMoeda(cotacaodia, valordolar)
 
 //Saida após o processamento 
-console.log(valordolar);
-console.log(valorConvertido);
+//console.log(valordolar);
+//console.log(valorConvertido);
+
+console.log(convertermoedas(valordolar,"en","USD"));
+console.log(convertermoedas(valorConvertido,"pt-br","BRL"));
+
+function convertermoedas(valor, local, moeda){
+    let opcoes = {
+        style: "currency",
+        currency: moeda
+    };
+
+    return valor.toLocaleString(local, opcoes);
+}
+
+//console.log(convertermoedas(valorConvertido));
+
+
